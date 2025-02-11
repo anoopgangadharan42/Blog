@@ -1,0 +1,133 @@
+
+
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2% 6% ;
+
+}
+nav img{
+    width: 44px;
+    height: 30px;
+}
+nav link{
+    flex: 1;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+
+}
+
+nav link ul li a{
+    text-decoration: none;
+}
+ 
+#carouselExample img{
+   
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 0%;
+    display: block;
+
+ }
+
+
+
+
+.tending{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 60px;
+}
+/* .tending-col{
+    flex-basis: 32%;
+    border: -20px solid rgb(230, 227, 227);
+    padding: auto;
+    
+    border-radius: 10px;
+    max-width: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.tending-col img{
+    width: 80%;
+}
+.tending-col p{
+    font-size:9px ;
+    padding: 10px;
+} */
+/* .tending-col button{
+ background-color: rgb(234, 234, 243);
+}
+ */
+
+.recent{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 60px;  
+}
+.recent-col{
+    flex-basis: 34%;
+   
+    padding: auto;
+    
+    border-radius: 10px;
+    max-width: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.recent-col  img{
+    width: 80%;
+}
+.card-text p{
+font-size: small;
+}
+.recent-col p{
+    text-align: center;
+   
+    
+  
+}
+.trends{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 60px; 
+   
+}
+.trends col p{
+font-size: small;
+}
+.buyer{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 60px; 
+}
+.footer{
+    flex: 5;
+    background:white;
+    color: black;
+    padding: 5px 10px;
+}
+.footer h4{
+    text-align: left;
+}
+
+
+
+
